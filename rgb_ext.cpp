@@ -42,9 +42,9 @@ int main()
 
     cv::waitKey(0);
 
-    cv::destroyWindow(wind_name);
+    cv::destroyAllWindows();
 
-    cout<<channels[0]<<endl;
+    //cout<<channels[0]<<endl;
 
     return 0;
 }
